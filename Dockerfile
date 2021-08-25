@@ -1,6 +1,6 @@
 FROM tomcat:8.0-alpine
 
-LABEL maintainer=”fuadmonsoon”
+LABEL maintainer="fuadmonsoon"
 
 ADD springmvc-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
 
