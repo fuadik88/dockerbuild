@@ -2,7 +2,7 @@ FROM tomcat:8.0-alpine
 
 LABEL maintainer="fuadmonsoon"
 
-ADD springmvc-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
+ADD *.war /usr/local/tomcat/webapps/webcustomertracker.war
 
 EXPOSE 8080
 
